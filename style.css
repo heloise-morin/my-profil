@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css");
+
+
+
+
+body{
+	background-color: #F6F4EA
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Heebo', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+h1,h2{
+	color: #D74850;
+	font-family: 'Lora', sans-serif;
+	font-weight: bold;
+}
+
+.titre-un{
+	font-size: 35px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+img{
+	width: 250px;
+	border-radius: 50%
+
+}
+
+
+.btn {
+	background-color: #D74850;
+	color: #323441;
+	text-decoration: none;
+	padding: 10px 35px;
+	border-radius: 50px;
+	box-shadow: 4px 10px 20px rgba(215,72,80,0.5);
+	font-family: 'Source Sans Pro', sans-serif;
+	transition: .5s
+}
+
+.btn:hover{
+	background: #EADDD3;
+}
+
+
+.titre-deux{
+	font-size: 22px;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+
+
+.container {
+	background-color: #F6F4EA;
+	width:60%;
+	padding: 20px;
+	margin: 30px auto;
+	border-radius: 5px;
+	text-align:center;
+	box-shadow: 0 0 15px rgba(211,199,194,0.6);
+}
+
+#introduction p{
+	margin-bottom: 25px;
+}
+
+
+.inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.inline i {
+	font-size: 50px;
+	color: #323441;
+}
+
+.inline i:hover {
+	color: #D74850;
+}
+
+
+@media (max-width: 500px){
+	.container{
+		width: 90%;
+	}
+	.inline li{
+	display: block;
+	padding: 5px;
+	}
+}
